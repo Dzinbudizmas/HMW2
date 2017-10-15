@@ -1,17 +1,7 @@
 {
-    "name": "delusion/hmw2",
-    "description": "Autoloading using namespaces",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Laima Kalinauskiene",
-            "email": "laimucka@gmail.com"
-        }
-    ],
-    "require": {},
     "autoload": {
         "psr-4": {
-            "World\\Creatures\\": "World/"
+            "World\\Creatures\\": "world/"
         }
     }
 }
